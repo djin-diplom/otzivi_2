@@ -13,18 +13,11 @@ function rand_podstav_smv($text){
 
 $REQUEST_URI = $_SERVER['REQUEST_URI'];
 
-
-
 $REQUEST_URI = $main_name.$REQUEST_URI;
 
-//$REQUEST_URI = str_replace( 'znaniumbaza_ru', 'rosdiplom_ru', $REQUEST_URI  );
-
 $REQUEST_URI = str_replace($main_name, $donor_name, $REQUEST_URI );
-$contentTitle = str_replace('znaniumbaza', 'rosdiplom', $REQUEST_URI );
 
-//echo $contentTitle;
-
-
+$REQUEST_URI = str_replace( '74/rosdiplom', '', $REQUEST_URI  );//new
 
 $mainContent = file_get_contents($contentTitle);
 
@@ -122,6 +115,5 @@ $mainContent = str_replace('карта-сайта', 'wlfjekgjt', $mainContent );
 $mainContent = rand_podstav_smv($mainContent);
 
 $mainContent = str_replace('wlfjekgjt', 'карта-сайта',  $mainContent );
-
 
 echo $mainContent;
