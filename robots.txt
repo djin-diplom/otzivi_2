@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /raiting/74/znaniumbaza/
+Allow: /raiting/74/bazaznanij.com
 Disallow: /
-Host: vivadip.xyz
+Host: otzivi.16mb.com
