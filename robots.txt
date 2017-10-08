@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /raiting/74/bazaznanij.com
+Allow: /raiting/74/bazaznanij/
 Disallow: /
 Host: otzivi.16mb.com
