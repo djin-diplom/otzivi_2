@@ -76,9 +76,9 @@ $mainContent = str_replace('Москва, ул.Сретенка, д.27/29, ст�
 $mainContent = str_replace('<span class="city">Москва:</span> +7495 9874136', 'Компания с 2013 года работает без телефонных менеджеров', $mainContent  );
 $mainContent = str_replace('<span class="city">Санкт-Петербург:</span> +7812 4485335', 'Это существенно снижает стоимость работ', $mainContent  );
 $mainContent = str_replace('<span class="city">Волгоград:</span> +78442 986161', 'Используйте форму заказа на сайте, пишите на почту', $mainContent  );
-$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20ucnUvcmVmZXJlci5hc3B4', 'http://'.$raskrutka_site_1.'/', $mainContent  );
+$mainContent = str_replace('http://studotzyv.ru/rel.php?id=555aHR0cHM6Ly9yb3NkaXBsb20ucnUvcmVmZXJlci5hc3B4', 'http://'.$raskrutka_site_1.'/', $mainContent  );
 $mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cDovL3Jvc2RpcGxvbS5ydS96YWthei9mYXN0Lz9yZWY9c3R1ZG90enl2', 'http://'.$raskrutka_site_1.'/order.php', $mainContent  );
-//$mainContent = str_replace('studotzyv.ru/rel.php?', '', $mainContent  );
+$mainContent = str_replace('studotzyv.ru/rel.php?', '', $mainContent  );
 
 //$mainContent = str_replace('znaniumbaza', 'rosdiplom', $mainContent  );
 $mainContent = str_replace('Публикации</a>', '</a>', $mainContent  );
