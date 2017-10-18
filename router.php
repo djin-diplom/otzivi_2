@@ -78,7 +78,7 @@ $mainContent = str_replace('<span class="city">Санкт-Петербург:</s
 $mainContent = str_replace('<span class="city">Волгоград:</span> +78442 986161', 'Используйте форму заказа на сайте, пишите на почту', $mainContent  );
 $mainContent = str_replace('http://studotzyv.ru/rel.php?id=555aHR0cHM6Ly9yb3NkaXBsb20ucnUvcmVmZXJlci5hc3B4', 'http://'.$raskrutka_site_1.'/', $mainContent  );
 $mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cDovL3Jvc2RpcGxvbS5ydS96YWthei9mYXN0Lz9yZWY9c3R1ZG90enl2', 'http://'.$raskrutka_site_1.'/order.php', $mainContent  );
-$mainContent = str_replace('studotzyv.ru/rel.php?', '', $mainContent  );
+$mainContent = str_replace('studotzyv.ru/rel.php?id=', 'http://'.$raskrutka_site_1.'/', $mainContent  );
 
 //$mainContent = str_replace('znaniumbaza', 'rosdiplom', $mainContent  );
 $mainContent = str_replace('Публикации</a>', '</a>', $mainContent  );
