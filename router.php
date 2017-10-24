@@ -23,7 +23,26 @@ $REQUEST_URI = str_replace( '74/rosdiplom', '', $REQUEST_URI  );//new
 
 $contentTitle = str_replace($raskrutka_site_2, 'rosdiplom', $REQUEST_URI );
 
-$mainContent = file_get_contents($contentTitle);
+switch($contentTitle) {
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/':
+        $mainContent = file_get_contents('httpstudotzyv.ruraiting74rosdiplom.html');
+        break;
+    case 'http://studotzyv.ru/':
+        $mainContent = file_get_contents('httpstudotzyv.ru.html');
+        break;
+    case 'http://xn--d1acynfdde.xn--p1ai/':
+        $mainContent = file_get_contents('httpxn--d1acynfdde.xn--p1ai.html');
+        break;
+    case 'http://xn--d1acynfdde.xn--p1ai/reviews/':
+        $mainContent = file_get_contents('httpxn--d1acynfdde.xn--p1aireviews.html');
+        break;
+    case 'http://vivastudent.ru/company-rating.html':
+        $mainContent = file_get_contents('httpvivastudent.rucompany-rating.html');
+        break;
+    default:
+        $mainContent = file_get_contents($contentTitle);
+        break;
+}
 
 
 $mainContent = str_replace('http://studotzyv.ru/wp-content/uploads/2010/05/www.rosdiplom.ru_-150x150.png', $main_name.'/fi/baza.png', $mainContent  );
@@ -76,8 +95,8 @@ $mainContent = str_replace('Москва, ул.Сретенка, д.27/29, ст�
 $mainContent = str_replace('<span class="city">Москва:</span> +7495 9874136', 'Компания с 2013 года работает без телефонных менеджеров', $mainContent  );
 $mainContent = str_replace('<span class="city">Санкт-Петербург:</span> +7812 4485335', 'Это существенно снижает стоимость работ', $mainContent  );
 $mainContent = str_replace('<span class="city">Волгоград:</span> +78442 986161', 'Используйте форму заказа на сайте, пишите на почту', $mainContent  );
-$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20ucnUvcmVmZXJlci5hc3B4', 'http://'.$raskrutka_site_1.'/', $mainContent  );
-$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cDovL3Jvc2RpcGxvbS5ydS96YWthei9mYXN0Lz9yZWY9c3R1ZG90enl2', 'http://'.$raskrutka_site_1.'/order.php', $mainContent  );
+$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20uc3UvcmVmZXJlci5hc3B4', 'http://'.$raskrutka_site_1.'/', $mainContent  );
+$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20uc3UvbGFuZGluZy9vcmRlci8/cmVmPXN0dWRvdHp5dg==', 'http://'.$raskrutka_site_1.'/order.php', $mainContent  );
 $mainContent = str_replace('studotzyv.ru/rel.php?id=', '', $mainContent  );
 $mainContent = str_replace('/referer.aspx', '', $mainContent  );
 $mainContent = str_replace('https://'.$raskrutka_site_1, 'http://'.$raskrutka_site_1, $mainContent  );
