@@ -30,14 +30,56 @@ switch($contentTitle) {
     case 'http://studotzyv.ru/':
         $mainContent = file_get_contents('httpstudotzyv.ru.html');
         break;
-    case 'http://xn--d1acynfdde.xn--p1ai/':
-        $mainContent = file_get_contents('httpxn--d1acynfdde.xn--p1ai.html');
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-1/':
+        $mainContent = file_get_contents('1.html');
         break;
-    case 'http://xn--d1acynfdde.xn--p1ai/reviews/':
-        $mainContent = file_get_contents('httpxn--d1acynfdde.xn--p1aireviews.html');
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-2/':
+        $mainContent = file_get_contents('2.html');
         break;
-    case 'http://vivastudent.ru/company-rating.html':
-        $mainContent = file_get_contents('httpvivastudent.rucompany-rating.html');
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-3/':
+        $mainContent = file_get_contents('3.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-4/':
+        $mainContent = file_get_contents('4.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-5/':
+        $mainContent = file_get_contents('5.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-6/':
+        $mainContent = file_get_contents('6.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-7/':
+        $mainContent = file_get_contents('7.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-8/':
+        $mainContent = file_get_contents('8.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-9/':
+        $mainContent = file_get_contents('9.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-10/':
+        $mainContent = file_get_contents('10.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-11/':
+        $mainContent = file_get_contents('11.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-12/':
+        $mainContent = file_get_contents('12.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-13/':
+        $mainContent = file_get_contents('13.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-14/':
+        $mainContent = file_get_contents('14.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-15/':
+        $mainContent = file_get_contents('15.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-16/':
+        $mainContent = file_get_contents('16.html');
+        break;
+    case 'http://studotzyv.ru/raiting/74/rosdiplom/comment-page-17/':
+        $mainContent = file_get_contents('17.html');
         break;
     default:
         $mainContent = file_get_contents($contentTitle);
