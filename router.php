@@ -80,6 +80,7 @@ $mainContent = str_replace('РосДипломом', $raskrutka_site_1, $mainCon
 $mainContent = str_replace('Роспдипломе', $raskrutka_site_2, $mainContent  );
 $mainContent = str_replace('РосДиплом', $raskrutka_site_3, $mainContent  );
 $mainContent = str_replace('rosdiplom.ru', $raskrutka_site_1, $mainContent  );
+$mainContent = str_replace('rosdiplom.su', $raskrutka_site_1, $mainContent  );
 
 
 $mainContent = str_replace('Rosdiplom.ru', $raskrutka_site_1, $mainContent  );
