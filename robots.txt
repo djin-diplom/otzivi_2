@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /raiting/74/bazaznanij/
+Allow: /raiting/74/bazazachet/
 Disallow: /
-Host: otzivi.16mb.com
+Host: studotzyv.16mb.com
