@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /raiting/74/bazazachet/
+Allow: /raiting/74/basisznanij/
 Disallow: /
 Host: otzyv.96.lt
