@@ -2,11 +2,11 @@
 
 function rand_podstav_smv($text){
       //$text = str_replace('х','x',$text);
-     $text = str_replace('а','a',$text);
-    $text = str_replace('р','p',$text);
+     //$text = str_replace('а','a',$text);
+    //$text = str_replace('р','p',$text);
    //$text = str_replace('о','o',$text);
    //$text = str_replace('е','e',$text);
-    $text = str_replace('с','c',$text);
+    //$text = str_replace('с','c',$text);
     return $text;
 }
 
@@ -138,11 +138,11 @@ $mainContent = str_replace('Москва, ул.Сретенка, д.27/29, ст�
 $mainContent = str_replace('<span class="city">Москва:</span> +7495 9874136', 'Компания с 2013 года работает без телефонных менеджеров', $mainContent  );
 $mainContent = str_replace('<span class="city">Санкт-Петербург:</span> +7812 4485335', 'Это существенно снижает стоимость работ', $mainContent  );
 $mainContent = str_replace('<span class="city">Волгоград:</span> +78442 986161', 'Используйте форму заказа на сайте, пишите на почту', $mainContent  );
-$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20uc3UvcmVmZXJlci5hc3B4', 'http://'.$raskrutka_site_1.'/', $mainContent  );
-$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20uc3UvbGFuZGluZy9vcmRlci8/cmVmPXN0dWRvdHp5dg==', 'http://'.$raskrutka_site_1.'/order.php', $mainContent  );
+$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20uc3UvcmVmZXJlci5hc3B4', 'https://'.$raskrutka_site_1.'/', $mainContent  );
+$mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cHM6Ly9yb3NkaXBsb20uc3UvbGFuZGluZy9vcmRlci8/cmVmPXN0dWRvdHp5dg==', 'https://'.$raskrutka_site_1.'/order.php', $mainContent  );
 $mainContent = str_replace('studotzyv.ru/rel.php?id=', '', $mainContent  );
 $mainContent = str_replace('/referer.aspx', '', $mainContent  );
-$mainContent = str_replace('https://'.$raskrutka_site_1, 'http://'.$raskrutka_site_1, $mainContent  );
+$mainContent = str_replace('https://'.$raskrutka_site_1, 'https://'.$raskrutka_site_1, $mainContent  );
 
 //$mainContent = str_replace('znaniumbaza', 'rosdiplom', $mainContent  );
 $mainContent = str_replace('Публикации</a>', '</a>', $mainContent  );
