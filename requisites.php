@@ -26,6 +26,6 @@ $raskrutka_site_adress_2 = 'Санкт-Петербург, проспект Эн
 
 $raskrutka_site_coord = '59.954570, 30.436215'; //коориднаты на яндексе
 
-$yandex_google = '<meta name="yandex-verification" content="6e4381f481a11919" />
+$yandex_google = '<meta name="yandex-verification" content="da198a1694ea46a9" />
 <meta name="google-site-verification" content="tshUkmsPhSUMJyHn8BAY4QCqYRiTqexr95J2IeUXDuI" />
 ';
