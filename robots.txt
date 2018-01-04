@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /raiting/74/basisznanij/
+Allow: /raiting/74/vivazachet/
 Disallow: /
-Host: otzyv.96.lt
+Host: otzyv.890m.com
