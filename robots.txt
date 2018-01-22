@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /raiting/74/vivazachet/
+Allow: /raiting/74/vivastudent/
 Disallow: /
-Host: otzyv.890m.com
+Host: http://otzyv.hol.es
