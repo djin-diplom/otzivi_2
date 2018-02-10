@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /raiting/74/vivastudent/
+Allow: /raiting/74/diplomfabrika/
 Disallow: /
-Host: http://otzyv.hol.es
+Host: http://otzyv.pe.hu
